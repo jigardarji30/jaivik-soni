@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaivik Soni - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html">Jaivik <span>Soni</span></a></div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero loading">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Creating Visuals That <span class="highlight">Speak</span></h1>
+            <p class="subtitle">Graphic Design • Video Editing • 3D Animation</p>
+            <p>I transform ideas into compelling visual narratives. Explore the intersection of art and technology.</p>
+            <div class="hero-btns">
+                <a href="portfolio.html" class="btn primary-btn">View My Work</a>
+                <a href="contact.html" class="btn secondary-btn">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / What I Do Summary -->
+    <section id="what-i-do">
+        <h2 class="section-title">What I Do</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon"><i class="fas fa-pen-nib"></i></div>
+                <h3>Graphic Design</h3>
+                <p>Brand identity, posters, and visual assets that stand out.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon"><i class="fas fa-video"></i></div>
+                <h3>Video Editing</h3>
+                <p>Cinematic storytelling and professional post-production.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon"><i class="fas fa-cube"></i></div>
+                <h3>3D Animation</h3>
+                <p>Bringing objects and environments to life in three dimensions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section class="why-choose-me">
+        <div class="why-container">
+            <div class="why-text">
+                <h2 class="section-title" style="text-align: left; margin: 0 0 30px 0;">Why Choose Me</h2>
+                <p>I bring a strong focus on video and 3D while understanding the complete visual ecosystem around a
+                    product. Clients value my ability to think beyond individual assets and create visuals that work
+                    together as part of a larger promotional strategy.</p>
+                <p>I prioritize clear communication, consistent quality, and long-term collaboration.</p>
+            </div>
+            <div class="why-image">
+                <img src="images/why_choose_me.png" alt="Why Choose Me">
+            </div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="portfolio-grid">
+            <!-- Showcasing selected projects -->
+            <a href="portfolio.html?filter=video-editing" class="portfolio-item featured-item">
+                <img src="images/img-004.jpg" onerror="this.src='images/img-001.jpg'" alt="Video Production">
+                <div class="portfolio-overlay">
+                    <h3>Video Production</h3>
+                    <p>View Project <i class="fas fa-arrow-right"></i></p>
+                </div>
+            </a>
+            <a href="portfolio.html?filter=3d-animation" class="portfolio-item featured-item">
+                <img src="images/img-006.jpg" onerror="this.src='images/img-002.jpg'" alt="Animation">
+                <div class="portfolio-overlay">
+                    <h3>Animation</h3>
+                    <p>View Project <i class="fas fa-arrow-right"></i></p>
+                </div>
+            </a>
+            <a href="portfolio.html?filter=graphic-design" class="portfolio-item featured-item">
+                <img src="images/img-005.jpg" alt="Graphic Design">
+                <div class="portfolio-overlay">
+                    <h3>Graphic Design</h3>
+                    <p>View Project <i class="fas fa-arrow-right"></i></p>
+                </div>
+            </a>
+        </div>
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="portfolio.html" class="btn">View All Projects</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
